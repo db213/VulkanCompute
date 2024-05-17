@@ -1,3 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.20)
 project(VulkanCompute)
-add_executable(VulkanCompute main.cpp)
+include_directories("src")
+add_executable(VulkanCompute src/main.cpp)
