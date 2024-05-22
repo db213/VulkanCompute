@@ -9,6 +9,7 @@ private:
   void initWindow();
   void initVulkan();
   void mainLoop();
+  void createInstance();
 
   SDL_Window * window;
   VkInstance instance = VK_NULL_HANDLE;
